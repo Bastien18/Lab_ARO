@@ -1,0 +1,14 @@
+v2.0 raw
+ #Fichier genere automatiquement a partir
+ #d'un fichier de type .hex compile pour cible
+ #ARM en Thumb code.
+ #Ce fichier peut etre importe
+ #directement dans la RAM d'instruction du processeur
+ #PRODIS1 dans logisim.
+2005 2102 180a 1d13 e01a 0000 0000 0000
+0000 0000 0000 0000 0000 0000 0000 0000
+0000 0000 0000 0000 0000 0000 0000 0000
+0000 0000 0000 0000 0000 0000 0000 0000
+2206 1e53 d00c 0000 0000 0000 0000 0000
+0000 0000 0000 0000 0000 0000 0000 0000
+2004 2180 e7cc                         
