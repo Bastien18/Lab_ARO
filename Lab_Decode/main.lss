@@ -1,0 +1,27 @@
+
+main.o:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000014  00000000  00000000  00000034  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000048  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000048  2**0
+                  ALLOC
+  3 .ARM.attributes 00000014  00000000  00000000  00000048  2**0
+                  CONTENTS, READONLY
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	2003      	movs	r0, #3
+   2:	2104      	movs	r1, #4
+   4:	2201      	movs	r2, #1
+   6:	4090      	lsls	r0, r2
+   8:	40d0      	lsrs	r0, r2
+   a:	0053      	lsls	r3, r2, #1
+   c:	085a      	lsrs	r2, r3, #1
+   e:	2338      	movs	r3, #56	; 0x38
+  10:	4113      	asrs	r3, r2
+  12:	105c      	asrs	r4, r3, #1
