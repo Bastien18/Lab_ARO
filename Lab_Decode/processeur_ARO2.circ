@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="e63171ccde5fafaa21c182d6b746f8f7736020b5" source="2.16.8.t" version="1.0">
+<project integrity="f4b1a74b9bc43820f1e4790864d43f16a61e851e" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -1007,14 +1007,14 @@ end TCL_Generic;
     <wire from="(160,740)" to="(210,740)"/>
     <wire from="(160,780)" to="(210,780)"/>
     <wire from="(730,310)" to="(730,330)"/>
-    <wire from="(890,420)" to="(910,420)"/>
-    <wire from="(890,460)" to="(910,460)"/>
+    <wire from="(850,900)" to="(870,900)"/>
+    <wire from="(890,380)" to="(910,380)"/>
     <wire from="(850,860)" to="(870,860)"/>
     <wire from="(200,120)" to="(230,120)"/>
     <wire from="(1520,940)" to="(1530,940)"/>
     <wire from="(890,500)" to="(910,500)"/>
-    <wire from="(850,900)" to="(870,900)"/>
-    <wire from="(890,380)" to="(910,380)"/>
+    <wire from="(890,420)" to="(910,420)"/>
+    <wire from="(890,460)" to="(910,460)"/>
     <wire from="(630,640)" to="(650,640)"/>
     <wire from="(210,540)" to="(210,640)"/>
     <wire from="(1850,980)" to="(1870,980)"/>
@@ -3496,14 +3496,14 @@ end TCL_Generic;
     <wire from="(950,30)" to="(950,140)"/>
     <wire from="(1000,240)" to="(1020,240)"/>
     <wire from="(880,170)" to="(880,210)"/>
-    <wire from="(410,290)" to="(430,290)"/>
-    <wire from="(410,530)" to="(430,530)"/>
-    <wire from="(410,130)" to="(430,130)"/>
-    <wire from="(410,50)" to="(430,50)"/>
-    <wire from="(410,610)" to="(430,610)"/>
-    <wire from="(410,450)" to="(430,450)"/>
-    <wire from="(410,370)" to="(430,370)"/>
     <wire from="(410,210)" to="(430,210)"/>
+    <wire from="(410,530)" to="(430,530)"/>
+    <wire from="(410,50)" to="(430,50)"/>
+    <wire from="(410,130)" to="(430,130)"/>
+    <wire from="(410,610)" to="(430,610)"/>
+    <wire from="(410,370)" to="(430,370)"/>
+    <wire from="(410,450)" to="(430,450)"/>
+    <wire from="(410,290)" to="(430,290)"/>
     <wire from="(230,720)" to="(230,760)"/>
     <wire from="(380,870)" to="(530,870)"/>
     <wire from="(110,70)" to="(130,70)"/>
@@ -4297,21 +4297,21 @@ end TCL_Generic;
     <wire from="(550,240)" to="(590,240)"/>
     <wire from="(550,440)" to="(590,440)"/>
     <wire from="(300,230)" to="(340,230)"/>
-    <wire from="(1330,490)" to="(1340,490)"/>
-    <wire from="(1330,370)" to="(1340,370)"/>
-    <wire from="(1330,250)" to="(1340,250)"/>
     <wire from="(1330,330)" to="(1340,330)"/>
+    <wire from="(1330,370)" to="(1340,370)"/>
+    <wire from="(1330,490)" to="(1340,490)"/>
+    <wire from="(1330,410)" to="(1340,410)"/>
+    <wire from="(1330,450)" to="(1340,450)"/>
+    <wire from="(1330,250)" to="(1340,250)"/>
     <wire from="(1330,290)" to="(1340,290)"/>
     <wire from="(1330,210)" to="(1340,210)"/>
+    <wire from="(1330,90)" to="(1340,90)"/>
+    <wire from="(1330,130)" to="(1340,130)"/>
+    <wire from="(1330,170)" to="(1340,170)"/>
     <wire from="(1330,530)" to="(1340,530)"/>
     <wire from="(1330,570)" to="(1340,570)"/>
     <wire from="(1330,650)" to="(1340,650)"/>
     <wire from="(1330,610)" to="(1340,610)"/>
-    <wire from="(1330,410)" to="(1340,410)"/>
-    <wire from="(1330,450)" to="(1340,450)"/>
-    <wire from="(1330,90)" to="(1340,90)"/>
-    <wire from="(1330,130)" to="(1340,130)"/>
-    <wire from="(1330,170)" to="(1340,170)"/>
     <wire from="(260,840)" to="(290,840)"/>
     <wire from="(310,250)" to="(340,250)"/>
     <wire from="(260,440)" to="(290,440)"/>
@@ -4385,22 +4385,22 @@ end TCL_Generic;
     <wire from="(300,330)" to="(340,330)"/>
     <wire from="(300,130)" to="(340,130)"/>
     <wire from="(550,50)" to="(550,90)"/>
-    <wire from="(1330,470)" to="(1340,470)"/>
     <wire from="(1330,230)" to="(1340,230)"/>
-    <wire from="(1330,350)" to="(1340,350)"/>
-    <wire from="(1330,310)" to="(1340,310)"/>
-    <wire from="(1330,270)" to="(1340,270)"/>
-    <wire from="(1330,70)" to="(1340,70)"/>
-    <wire from="(1330,150)" to="(1340,150)"/>
-    <wire from="(1330,110)" to="(1340,110)"/>
-    <wire from="(1330,190)" to="(1340,190)"/>
+    <wire from="(1330,470)" to="(1340,470)"/>
     <wire from="(1330,510)" to="(1340,510)"/>
     <wire from="(1330,550)" to="(1340,550)"/>
     <wire from="(1330,590)" to="(1340,590)"/>
     <wire from="(1330,630)" to="(1340,630)"/>
     <wire from="(1330,670)" to="(1340,670)"/>
+    <wire from="(1330,310)" to="(1340,310)"/>
+    <wire from="(1330,350)" to="(1340,350)"/>
     <wire from="(1330,430)" to="(1340,430)"/>
     <wire from="(1330,390)" to="(1340,390)"/>
+    <wire from="(1330,270)" to="(1340,270)"/>
+    <wire from="(1330,70)" to="(1340,70)"/>
+    <wire from="(1330,150)" to="(1340,150)"/>
+    <wire from="(1330,110)" to="(1340,110)"/>
+    <wire from="(1330,190)" to="(1340,190)"/>
     <wire from="(590,80)" to="(610,80)"/>
     <wire from="(910,50)" to="(910,90)"/>
     <wire from="(910,90)" to="(910,130)"/>
@@ -9124,10 +9124,22 @@ end TCL_Generic;
     <wire from="(630,80)" to="(630,100)"/>
     <wire from="(590,220)" to="(590,240)"/>
     <wire from="(580,710)" to="(580,730)"/>
+    <wire from="(220,330)" to="(250,330)"/>
     <wire from="(220,290)" to="(250,290)"/>
     <wire from="(220,170)" to="(250,170)"/>
+    <wire from="(220,190)" to="(250,190)"/>
+    <wire from="(220,230)" to="(250,230)"/>
+    <wire from="(220,210)" to="(250,210)"/>
+    <wire from="(220,150)" to="(250,150)"/>
+    <wire from="(220,130)" to="(250,130)"/>
+    <wire from="(220,110)" to="(250,110)"/>
+    <wire from="(220,90)" to="(250,90)"/>
+    <wire from="(220,70)" to="(250,70)"/>
+    <wire from="(220,30)" to="(250,30)"/>
+    <wire from="(220,50)" to="(250,50)"/>
+    <wire from="(220,270)" to="(250,270)"/>
+    <wire from="(220,250)" to="(250,250)"/>
     <wire from="(220,310)" to="(250,310)"/>
-    <wire from="(220,330)" to="(250,330)"/>
     <wire from="(220,350)" to="(250,350)"/>
     <wire from="(220,370)" to="(250,370)"/>
     <wire from="(220,390)" to="(250,390)"/>
@@ -9137,18 +9149,6 @@ end TCL_Generic;
     <wire from="(220,470)" to="(250,470)"/>
     <wire from="(220,490)" to="(250,490)"/>
     <wire from="(620,510)" to="(620,550)"/>
-    <wire from="(220,270)" to="(250,270)"/>
-    <wire from="(220,250)" to="(250,250)"/>
-    <wire from="(220,150)" to="(250,150)"/>
-    <wire from="(220,190)" to="(250,190)"/>
-    <wire from="(220,230)" to="(250,230)"/>
-    <wire from="(220,210)" to="(250,210)"/>
-    <wire from="(220,130)" to="(250,130)"/>
-    <wire from="(220,110)" to="(250,110)"/>
-    <wire from="(220,90)" to="(250,90)"/>
-    <wire from="(220,70)" to="(250,70)"/>
-    <wire from="(220,30)" to="(250,30)"/>
-    <wire from="(220,50)" to="(250,50)"/>
     <wire from="(1250,220)" to="(1260,220)"/>
     <wire from="(1250,280)" to="(1260,280)"/>
     <wire from="(1250,160)" to="(1260,160)"/>
@@ -9793,6 +9793,7 @@ end TCL_Generic;
     <wire from="(1340,430)" to="(1380,430)"/>
     <wire from="(1320,470)" to="(1380,470)"/>
     <wire from="(1340,570)" to="(1400,570)"/>
+    <wire from="(890,60)" to="(930,60)"/>
     <wire from="(450,810)" to="(450,840)"/>
     <wire from="(1340,660)" to="(1390,660)"/>
     <wire from="(1340,700)" to="(1390,700)"/>
@@ -9814,8 +9815,11 @@ end TCL_Generic;
     <wire from="(1310,460)" to="(1380,460)"/>
     <wire from="(870,450)" to="(900,450)"/>
     <wire from="(420,820)" to="(430,820)"/>
+    <wire from="(930,50)" to="(940,50)"/>
+    <wire from="(930,90)" to="(940,90)"/>
     <wire from="(610,750)" to="(690,750)"/>
     <wire from="(610,590)" to="(690,590)"/>
+    <wire from="(920,40)" to="(930,40)"/>
     <wire from="(1360,720)" to="(1360,760)"/>
     <wire from="(890,110)" to="(970,110)"/>
     <wire from="(1370,930)" to="(1370,970)"/>
@@ -9826,9 +9830,8 @@ end TCL_Generic;
     <wire from="(690,580)" to="(690,590)"/>
     <wire from="(1330,420)" to="(1330,440)"/>
     <wire from="(630,40)" to="(630,50)"/>
-    <wire from="(890,60)" to="(940,60)"/>
     <wire from="(910,400)" to="(960,400)"/>
-    <wire from="(970,100)" to="(970,110)"/>
+    <wire from="(930,60)" to="(930,70)"/>
     <wire from="(610,540)" to="(660,540)"/>
     <wire from="(610,700)" to="(660,700)"/>
     <wire from="(330,860)" to="(380,860)"/>
@@ -9845,7 +9848,6 @@ end TCL_Generic;
     <wire from="(1330,660)" to="(1330,670)"/>
     <wire from="(1340,870)" to="(1340,880)"/>
     <wire from="(1470,10)" to="(1470,210)"/>
-    <wire from="(920,40)" to="(940,40)"/>
     <wire from="(1310,440)" to="(1320,440)"/>
     <wire from="(1310,480)" to="(1320,480)"/>
     <wire from="(1350,760)" to="(1360,760)"/>
@@ -9874,6 +9876,7 @@ end TCL_Generic;
     <wire from="(1340,490)" to="(1380,490)"/>
     <wire from="(470,850)" to="(470,860)"/>
     <wire from="(1320,450)" to="(1380,450)"/>
+    <wire from="(890,80)" to="(930,80)"/>
     <wire from="(400,900)" to="(400,930)"/>
     <wire from="(1310,130)" to="(1310,140)"/>
     <wire from="(1090,550)" to="(1090,560)"/>
@@ -9905,13 +9908,15 @@ end TCL_Generic;
     <wire from="(430,770)" to="(430,820)"/>
     <wire from="(1360,720)" to="(1390,720)"/>
     <wire from="(1370,930)" to="(1400,930)"/>
+    <wire from="(930,70)" to="(940,70)"/>
     <wire from="(590,110)" to="(670,110)"/>
     <wire from="(1420,470)" to="(1440,470)"/>
     <wire from="(620,40)" to="(630,40)"/>
     <wire from="(630,50)" to="(640,50)"/>
     <wire from="(1330,480)" to="(1330,500)"/>
     <wire from="(910,420)" to="(960,420)"/>
-    <wire from="(890,80)" to="(940,80)"/>
+    <wire from="(930,40)" to="(930,50)"/>
+    <wire from="(930,80)" to="(930,90)"/>
     <wire from="(610,720)" to="(660,720)"/>
     <wire from="(610,560)" to="(660,560)"/>
     <wire from="(1340,490)" to="(1340,520)"/>
@@ -10120,15 +10125,6 @@ end TCL_Generic;
       <a name="facing" val="east"/>
       <a name="label" val="rst_s"/>
     </comp>
-    <comp lib="4" loc="(940,10)" name="Register">
-      <a name="width" val="16"/>
-      <a name="label" val="SP"/>
-      <a name="owner" val="brasey_pillonel_inc_"/>
-      <a name="date" val="21.03.22 15:30:22"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="9e7ed39f-3595-457c-9f7a-5cd5fe1d9e83"/>
-      <a name="integrity" val="9a974883755aedce47a008f61fef68799397573e"/>
-    </comp>
     <comp lib="0" loc="(890,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="rst_s"/>
@@ -10140,6 +10136,7 @@ end TCL_Generic;
     <comp lib="4" loc="(660,650)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="R4"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10161,6 +10158,7 @@ end TCL_Generic;
     <comp lib="4" loc="(660,320)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="R2"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10178,6 +10176,7 @@ end TCL_Generic;
     <comp lib="4" loc="(640,160)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="R1"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10195,6 +10194,7 @@ end TCL_Generic;
     <comp lib="4" loc="(660,490)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="R3"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10252,6 +10252,7 @@ end TCL_Generic;
     <comp lib="4" loc="(640,20)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="R0"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10515,6 +10516,7 @@ end TCL_Generic;
     <comp lib="4" loc="(1060,460)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="PC"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10647,6 +10649,7 @@ end TCL_Generic;
     <comp lib="4" loc="(1280,40)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="LR"/>
+      <a name="showInTab" val="true"/>
       <a name="owner" val="brasey_pillonel_inc_"/>
       <a name="date" val="21.03.22 15:30:22"/>
       <a name="version" val="2.16.8.t"/>
@@ -10714,6 +10717,16 @@ end TCL_Generic;
     <comp lib="0" loc="(1010,510)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg_bank_en_s"/>
+    </comp>
+    <comp lib="4" loc="(940,20)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="SP"/>
+      <a name="showInTab" val="true"/>
+      <a name="owner" val="brasey_pillonel_inc_"/>
+      <a name="date" val="21.03.22 15:30:22"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="9e7ed39f-3595-457c-9f7a-5cd5fe1d9e83"/>
+      <a name="integrity" val="9a974883755aedce47a008f61fef68799397573e"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
