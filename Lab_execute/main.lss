@@ -3,25 +3,82 @@ main.o:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00000014  00000000  00000000  00000034  2**1
+  0 .text         00000084  00000000  00000000  00000034  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00000000  00000000  00000048  2**0
+  1 .data         00000000  00000000  00000000  000000b8  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .bss          00000000  00000000  00000000  00000048  2**0
+  2 .bss          00000000  00000000  00000000  000000b8  2**0
                   ALLOC
-  3 .ARM.attributes 00000014  00000000  00000000  00000048  2**0
+  3 .ARM.attributes 00000014  00000000  00000000  000000b8  2**0
                   CONTENTS, READONLY
 
 Disassembly of section .text:
 
-00000000 <.text>:
-   0:	2003      	movs	r0, #3
-   2:	2104      	movs	r1, #4
-   4:	2201      	movs	r2, #1
-   6:	4090      	lsls	r0, r2
-   8:	40d0      	lsrs	r0, r2
-   a:	0053      	lsls	r3, r2, #1
-   c:	085a      	lsrs	r2, r3, #1
-   e:	2338      	movs	r3, #56	; 0x38
-  10:	4113      	asrs	r3, r2
-  12:	105c      	asrs	r4, r3, #1
+00000000 <Begin>:
+   0:	f000 f802 	bl	8 <fonction1>
+   4:	2500      	movs	r5, #0
+   6:	e02c      	b.n	62 <fin_de_programme>
+
+00000008 <fonction1>:
+   8:	702e      	strb	r6, [r5, #0]
+   a:	3502      	adds	r5, #2
+   c:	f000 f802 	bl	14 <fonction2>
+  10:	3d02      	subs	r5, #2
+  12:	78af      	ldrb	r7, [r5, #2]
+
+00000014 <fonction2>:
+  14:	702e      	strb	r6, [r5, #0]
+  16:	3502      	adds	r5, #2
+  18:	f000 f802 	bl	20 <fonction3>
+  1c:	3d02      	subs	r5, #2
+  1e:	78af      	ldrb	r7, [r5, #2]
+
+00000020 <fonction3>:
+  20:	702e      	strb	r6, [r5, #0]
+  22:	3502      	adds	r5, #2
+  24:	f000 f802 	bl	2c <fonction4>
+  28:	3d02      	subs	r5, #2
+  2a:	78af      	ldrb	r7, [r5, #2]
+
+0000002c <fonction4>:
+  2c:	702e      	strb	r6, [r5, #0]
+  2e:	3502      	adds	r5, #2
+  30:	f000 f802 	bl	38 <fonction5>
+  34:	3d02      	subs	r5, #2
+  36:	78af      	ldrb	r7, [r5, #2]
+
+00000038 <fonction5>:
+  38:	702e      	strb	r6, [r5, #0]
+  3a:	3502      	adds	r5, #2
+  3c:	f000 f802 	bl	44 <fonction6>
+  40:	3d02      	subs	r5, #2
+  42:	78af      	ldrb	r7, [r5, #2]
+
+00000044 <fonction6>:
+  44:	702e      	strb	r6, [r5, #0]
+  46:	3502      	adds	r5, #2
+  48:	f000 f802 	bl	50 <fonction7>
+  4c:	3d02      	subs	r5, #2
+  4e:	78af      	ldrb	r7, [r5, #2]
+
+00000050 <fonction7>:
+  50:	702e      	strb	r6, [r5, #0]
+  52:	3502      	adds	r5, #2
+  54:	f000 f802 	bl	5c <fonction8>
+  58:	3d02      	subs	r5, #2
+  5a:	78af      	ldrb	r7, [r5, #2]
+
+0000005c <fonction8>:
+  5c:	702e      	strb	r6, [r5, #0]
+  5e:	3d02      	subs	r5, #2
+  60:	78af      	ldrb	r7, [r5, #2]
+
+00000062 <fin_de_programme>:
+  62:	2105      	movs	r1, #5
+  64:	1f4a      	subs	r2, r1, #5
+  66:	d00b      	beq.n	80 <cond_zero>
+	...
+
+00000080 <cond_zero>:
+  80:	2000      	movs	r0, #0
+  82:	e7bd      	b.n	0 <Begin>
