@@ -1,0 +1,68 @@
+
+main.o:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000a4  00000000  00000000  00000034  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  000000d8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  000000d8  2**0
+                  ALLOC
+  3 .ARM.attributes 00000014  00000000  00000000  000000d8  2**0
+                  CONTENTS, READONLY
+
+Disassembly of section .text:
+
+00000000 <MAIN_START>:
+   0:	2001      	movs	r0, #1
+   2:	2102      	movs	r1, #2
+   4:	2206      	movs	r2, #6
+   6:	46c0      	nop			; (mov r8, r8)
+   8:	46c0      	nop			; (mov r8, r8)
+   a:	8088      	strh	r0, [r1, #4]
+   c:	1c54      	adds	r4, r2, #1
+   e:	1d13      	adds	r3, r2, #4
+  10:	1a0c      	subs	r4, r1, r0
+  12:	3005      	adds	r0, #5
+  14:	0052      	lsls	r2, r2, #1
+  16:	46c0      	nop			; (mov r8, r8)
+  18:	46c0      	nop			; (mov r8, r8)
+  1a:	46c0      	nop			; (mov r8, r8)
+  1c:	0052      	lsls	r2, r2, #1
+  1e:	e00f      	b.n	40 <PART_2>
+	...
+
+00000040 <PART_2>:
+  40:	2003      	movs	r0, #3
+  42:	2104      	movs	r1, #4
+  44:	2208      	movs	r2, #8
+  46:	e00b      	b.n	60 <SAUTZERO>
+  48:	1888      	adds	r0, r1, r2
+	...
+
+00000060 <SAUTZERO>:
+  60:	20ff      	movs	r0, #255	; 0xff
+  62:	46c0      	nop			; (mov r8, r8)
+  64:	46c0      	nop			; (mov r8, r8)
+  66:	46c0      	nop			; (mov r8, r8)
+  68:	d10a      	bne.n	80 <SAUTC>
+  6a:	2105      	movs	r1, #5
+	...
+
+00000080 <SAUTC>:
+  80:	2000      	movs	r0, #0
+  82:	46c0      	nop			; (mov r8, r8)
+  84:	46c0      	nop			; (mov r8, r8)
+  86:	46c0      	nop			; (mov r8, r8)
+  88:	d10a      	bne.n	a0 <NOT_TAKEN>
+  8a:	2100      	movs	r1, #0
+  8c:	46c0      	nop			; (mov r8, r8)
+  8e:	46c0      	nop			; (mov r8, r8)
+  90:	46c0      	nop			; (mov r8, r8)
+  92:	d0b5      	beq.n	0 <MAIN_START>
+	...
+
+000000a0 <NOT_TAKEN>:
+  a0:	e7ae      	b.n	0 <MAIN_START>
+  a2:	2406      	movs	r4, #6
