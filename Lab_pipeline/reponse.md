@@ -27,14 +27,7 @@ Q2:
 - Latence = 25 / Debit = 17.05 ms
 
 ## 2.1
-Q1: 4 cycles   
-Q2: pour éviter de fetch et executer des instructions en attendant le saut   
-Q3: Faire un Branch quel qu'il soit.  
-Q4: il faut attendre le temps de de l'alea de donné puis effectuer l'instuction et attendre qu'elle termine  
-
-## 2.2
-Q1: Les instructions Branch quel qu'il soit.  
-Q2: il empeche les différente étape du tretement via un pipline interne  
-Q3: l'instruction est traiter mais le suivant ne pouront pas car les enable vont prgésivement se mettre à 0.  
-Q4: car il faut d'abord gérer l'alea de donné avant de pouvoir traiter l'aléa de controle   
-
+Q1: 4 cycles 
+Q2: pour éviter de fetch et executer des instructions en attendant le saut 
+Q3: Faire un Branch quel qu'il soit.
+Q4: il faut attendre le temps de de l'alea de donné puis effectuer l'instuction et attendre qu'elle termine
