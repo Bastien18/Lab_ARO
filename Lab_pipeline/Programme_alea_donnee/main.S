@@ -6,12 +6,15 @@ mov r4, #2
 lsl r2, r2, #1
 lsl r2, r2, #1
 lsl r3, r4, #1
+bl part2
+mov r0, #0
+
+.org 0xa0
+part2:
 lsr r4, r3, #1
 add r1, r4
 sub r0 , r1, r4
 strb r0 ,[r4,#0]
 
-bl rentsh
 
-.org 0x a0
-rentsh:
+
