@@ -11,8 +11,8 @@ Q1: Les signaux reg_xxx_en_s.
 ## 1.3 Test aléas de donnée  
 Q1: Oui un alea de donnée permet au flux d'instruction se passer correctement.  
 Q2: Car il faut d'abord noter la valeur du PC dans le LR (aléa de donnée) et esuite faire le branch (aléa de donnée).  
-Q3: Il faudra 
-Q4: 
+Q3: il faut 7 cylces en tout.  
+Q4: 18 instruction pour 48 cylce donc 0.375
 
 # 2 Pipeline Forwarding  
 ## 2.1 Circuit data_hazard  
@@ -27,3 +27,7 @@ Q2: Car il peut aussi générer un alea de donnée, il peut donc aussi etre forw
 Q3: Rien car les valeurs sont déjà disponible à l'emplacement prévu.  
 
 ## 2.3 Test : pipeline forwarding
+Q1: Oui une fois que tous à été implement é correctement  
+Q2: IPC = 18/32 = 0.5625 et Throughtput = 4'000 * IPC = 2250  
+Q3: Il en faut 4.  
+Q4: Peut-etre essaié de changé la minére dont les branch sont calculer pour reduire voir éliminer les aléas de contrôle.  
